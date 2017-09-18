@@ -160,7 +160,7 @@ class UIScrollableImageView: UIImageView, UIScrollViewDelegate, UIGestureRecogni
         return button
     }
     
-    func setCloseButtonImage(image: UIImage) {
+    func setCloseButtonImage(image: UIImage?) {
         self.closeButtonImage = image
     }
     
