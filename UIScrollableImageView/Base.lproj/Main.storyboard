@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIScrollableImageView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kiwi-free-2673038_960_720" translatesAutoresizingMaskIntoConstraints="NO" id="NYS-sh-jRh" customClass="UIScrollableImageView" customModule="UIScrollableImageView" customModuleProvider="target">
+                                <rect key="frame" x="18.5" y="165" width="337.5" height="337.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="NYS-sh-jRh" secondAttribute="height" multiplier="1:1" id="Rx9-jV-7WR"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NYS-sh-jRh" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="9/10" id="9va-3S-Ru8"/>
+                            <constraint firstItem="NYS-sh-jRh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WVJ-4s-oCC"/>
+                            <constraint firstItem="NYS-sh-jRh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gOy-Df-Mcx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kiwi-free-2673038_960_720" width="480" height="320"/>
+    </resources>
+</document>
